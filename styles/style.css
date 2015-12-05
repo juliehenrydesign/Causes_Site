@@ -28,12 +28,20 @@ nav ul {
 }
 
 nav ul li {
+<<<<<<< HEAD
+=======
+	width: 95px;
+>>>>>>> 2c9f62715dedc646967c526fb8a0b393a3c748b9
 	padding: 15px;
 	line-height: 40px;
 	list-style-type: none;
 }
 
 a {
+<<<<<<< HEAD
+=======
+	display: block;	
+>>>>>>> 2c9f62715dedc646967c526fb8a0b393a3c748b9
 	color: black;
 	text-decoration: none;
 }
