@@ -141,6 +141,11 @@ nav a:hover {
 
 }
 
+.table-striped td, th{
+	border-right: 2px solid black;
+	border-left: 2px solid black;
+}
+
 .help {
 	width: 670px;
 	background-color: rgba(0,0,0,0.8);
