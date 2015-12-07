@@ -109,6 +109,38 @@ nav a:hover {
 	line-height: 2em;
 }
 
+#third_container{
+	width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 726px;
+    left: 638px;
+    margin-left: 500px;
+    margin-top: 200px;
+    z-index: 25;
+}
+
+#fourth_container{
+	width: 850px;
+	height: 400px;
+	position: absolute;
+	top: 1600px;
+	margin-left: 500px;
+	margin-top: 200px;
+	z-index: 30;
+	background-color: gray;
+	border-radius: 25%;
+}
+
+.table-table-striped{
+	border: 2px solid black;
+}
+
+.table-striped{
+	border-right: 2px solid black;
+
+}
+
 .help {
 	width: 670px;
 	background-color: rgba(0,0,0,0.8);
