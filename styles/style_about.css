@@ -52,13 +52,19 @@ nav a:hover {
 	margin: 0 auto;
 	background: url(../images/homelessness-quotes-3.jpg);
 	background-size: cover;
+	z-index: 0;
 }
 
 .about_main{
-	width: 800px;
-	height: 800px;
-	margin-left: 400px;
-	margin-top: 200px;
+	position: absolute;
+    top: -42px;
+    width: 800px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+    background-color: gray;
+    border-radius: 25%;
+    padding: 90px;
 }
 
 .about_main h1{
@@ -69,6 +75,99 @@ nav a:hover {
 	font-size: 3em;
 	text-align: center;
 }
+
+.about_main p{
+	font-size: 1.2em;
+    font-family: 'Arial';
+    line-height: 160%;
+}
+
+#second_container{
+	width: 800px;
+    height: 500px;
+    margin-left: 500px;
+    margin-top: 246px;
+    background-color: gray;
+    position: absolute;
+    top: 670px;
+    z-index: 25;
+    padding: 100px;
+    border-radius: 25%;
+}
+
+#second_container figure{
+	margin: 0 auto;
+}
+
+#second_container figure img{
+	width: 225px;
+	height: 225px;
+	margin-left: 275px;
+}
+
+#second_container figure p{
+	line-height: 2em;
+}
+
+#third_container{
+	width: 900px;
+    height: 400px;
+    position: absolute;
+    top: 726px;
+    left: 638px;
+    margin-left: 500px;
+    margin-top: 200px;
+    z-index: 25;
+}
+
+#fourth_container{
+	width: 850px;
+	height: 400px;
+	position: absolute;
+	top: 1600px;
+	margin-left: 500px;
+	margin-top: 200px;
+	z-index: 30;
+	background-color: gray;
+	border-radius: 25%;
+}
+
+.table {
+	border:2px solid black;
+	border-collapse: collapse;
+}
+
+.col {
+	width: 400px;
+	height: 400px;
+	margin: 0px 10px 10px 0px;
+	display: inline-block;
+	border-collapse: collapse;
+	line-height: 100%;
+}
+
+#divider{
+	border-right: 2px black solid;
+	border-collapse: collapse;
+}
+
+col, p{
+	width: 400px;
+}
+/*.table-table-striped{
+	border: 2px solid black;
+	border-collapse: collapse;
+}*/
+
+/* td{
+	border-right: 2px solid black;
+	border-collapse: collapse;
+}*/
+
+/* th{
+	border-right: 2px solid black;
+	border-collapse: collapse;
+}*/
 
 .help {
 	width: 670px;
@@ -81,20 +180,4 @@ nav a:hover {
 	padding-bottom: 10px;
 	border-bottom: 5px solid rgb(204, 0, 0);
 	border-top: 5px solid rgb(204, 0, 0);
-}
-
-
-.help h1 {
-	color: white;
-	font-family: 'Droid Sans', sans-serif;
-	font-size: 30px;
-	margin-left: 80px;
-	letter-spacing: 1px;
-	padding-top: 10px;
-	
-}
-.help h1 span {
-	color: red;
-	border: 1px solid white;
-	padding: 10px;
 }
