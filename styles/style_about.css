@@ -132,19 +132,42 @@ nav a:hover {
 	border-radius: 25%;
 }
 
-.table-table-striped{
+.table {
+	border:2px solid black;
+	border-collapse: collapse;
+}
+
+.col {
+	width: 400px;
+	height: 400px;
+	margin: 0px 10px 10px 0px;
+	display: inline-block;
+	border-collapse: collapse;
+	line-height: 100%;
+}
+
+#divider{
+	border-right: 2px black solid;
+	border-collapse: collapse;
+}
+
+col, p{
+	width: 400px;
+}
+/*.table-table-striped{
 	border: 2px solid black;
-}
+	border-collapse: collapse;
+}*/
 
-.table-striped{
+/* td{
 	border-right: 2px solid black;
+	border-collapse: collapse;
+}*/
 
-}
-
-.table-striped td, th{
+/* th{
 	border-right: 2px solid black;
-	border-left: 2px solid black;
-}
+	border-collapse: collapse;
+}*/
 
 .help {
 	width: 670px;
