@@ -55,6 +55,15 @@ nav a:hover {
 	background-size: cover;
 }
 
+#main-contact {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	margin: 0 auto;
+	background: url(../images/contact.jpg);
+	background-size: cover;
+}
+
 .help {
 	width: 670px;
 	background-color: rgba(0,0,0,0.8);
@@ -85,21 +94,21 @@ nav a:hover {
 }
 
 #contact {
-	width: 710px;
+	width: 780px;
 	height: 360px;
-	background-color: rgba(204,0,0,0.5);
+	background-color: rgba(0,0,0,0.8);
 	border: 3px solid black;
 	margin: 0 auto;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .left1 {
-	width: 200px500px;
+	width: 350px;
 	height: 240px;
 	float: left;
 }
 
 .middle {
-	width: 320px;
+	width: 350px;
 	height: 220px;
 	padding: 10px 25px;
 	color: black;
@@ -107,7 +116,7 @@ nav a:hover {
 }
 
 .right2 {
-	width: 320px;
+	width: 360px;
 	height: 220px;
 	padding: 10px;
 	color: white;
@@ -135,7 +144,11 @@ nav a:hover {
 	text-align: left;
 	color: white;
 }
-
+.columntext a {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
 
 #form {
 	margin: 10px;
