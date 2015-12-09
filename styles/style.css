@@ -3,7 +3,6 @@ body {
 	background-color: black;
 }
 
-
 #sidebar {
 	height: 530px;
 	background-color: silver;
@@ -28,20 +27,14 @@ nav ul {
 }
 
 nav ul li {
-<<<<<<< HEAD
-=======
 	width: 95px;
->>>>>>> 2c9f62715dedc646967c526fb8a0b393a3c748b9
 	padding: 15px;
 	line-height: 40px;
 	list-style-type: none;
 }
 
 a {
-<<<<<<< HEAD
-=======
 	display: block;	
->>>>>>> 2c9f62715dedc646967c526fb8a0b393a3c748b9
 	color: black;
 	text-decoration: none;
 }
@@ -91,6 +84,82 @@ nav a:hover {
 	padding: 10px;
 }
 
+#contact {
+	width: 710px;
+	height: 360px;
+	background-color: rgba(204,0,0,0.5);
+	border: 3px solid black;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+.left1 {
+	width: 200px500px;
+	height: 240px;
+	float: left;
+}
 
+.middle {
+	width: 320px;
+	height: 220px;
+	padding: 10px 25px;
+	color: black;
+	float: left;
+}
+
+.right2 {
+	width: 320px;
+	height: 220px;
+	padding: 10px;
+	color: white;
+	margin: 0 auto;
+	text-align: left;
+	float: left;
+}
+
+
+.foothead {
+	font-size: 25px;
+	font-family: "Arial black";
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: left;
+	color: white;
+}
+
+.columntext {
+	font-size: 15px;
+	font-family: "Arial";
+	padding: 15px 0;
+	margin: 0 auto;
+	line-height: 25px;
+	text-align: left;
+	color: white;
+}
+
+
+#form {
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 350px;
+}
+
+.title {
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	font-family: "Arial";
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#name, #email {
+	width: 300px;
+}
+
+.submit {
+	text-align: right;
+	float: left;
+}
 
 
