@@ -3,7 +3,6 @@ body {
 	background-color: black;
 }
 
-
 #sidebar {
 	height: 530px;
 	background-color: silver;
@@ -28,20 +27,14 @@ nav ul {
 }
 
 nav ul li {
-<<<<<<< HEAD
-=======
 	width: 95px;
->>>>>>> 2c9f62715dedc646967c526fb8a0b393a3c748b9
 	padding: 15px;
 	line-height: 40px;
 	list-style-type: none;
 }
 
 a {
-<<<<<<< HEAD
-=======
 	display: block;	
->>>>>>> 2c9f62715dedc646967c526fb8a0b393a3c748b9
 	color: black;
 	text-decoration: none;
 }
@@ -59,6 +52,15 @@ nav a:hover {
 	position: fixed;
 	margin: 0 auto;
 	background: url(../images/homeless3.jpg);
+	background-size: cover;
+}
+
+#main-contact {
+	width: 100%;
+	height: 900px;
+	position: fixed;
+	margin: 0 auto;
+	background: url(../images/contact.jpg);
 	background-size: cover;
 }
 
@@ -91,6 +93,86 @@ nav a:hover {
 	padding: 10px;
 }
 
+#contact {
+	width: 780px;
+	height: 360px;
+	background-color: rgba(0,0,0,0.8);
+	border: 3px solid black;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+.left1 {
+	width: 350px;
+	height: 240px;
+	float: left;
+}
 
+.middle {
+	width: 350px;
+	height: 220px;
+	padding: 10px 25px;
+	color: black;
+	float: left;
+}
+
+.right2 {
+	width: 360px;
+	height: 220px;
+	padding: 10px;
+	color: white;
+	margin: 0 auto;
+	text-align: left;
+	float: left;
+}
+
+
+.foothead {
+	font-size: 25px;
+	font-family: "Arial black";
+	font-weight: bold;
+	padding-top: 10px;
+	text-align: left;
+	color: white;
+}
+
+.columntext {
+	font-size: 15px;
+	font-family: "Arial";
+	padding: 15px 0;
+	margin: 0 auto;
+	line-height: 25px;
+	text-align: left;
+	color: white;
+}
+.columntext a {
+	font-size: 20px;
+	font-weight: bold;
+	color: red;
+}
+
+#form {
+	margin: 10px;
+	padding-bottom: 10px;
+	width: 350px;
+}
+
+.title {
+	width: 100px;
+	text-align: right;
+	padding-right: 10px;
+	font-family: "Arial";
+	font-size: 16px;
+	font-weight: bold;
+	color: white;
+}
+
+#name, #email {
+	width: 300px;
+}
+
+.submit {
+	text-align: right;
+	float: left;
+}
 
 
