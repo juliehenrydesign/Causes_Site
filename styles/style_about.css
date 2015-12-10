@@ -121,8 +121,8 @@ nav a:hover {
 }
 
 #fourth_container{
-	width: 850px;
-	height: 400px;
+	width: 950px;
+	height: 700px;
 	position: absolute;
 	top: 1600px;
 	margin-left: 500px;
@@ -134,50 +134,44 @@ nav a:hover {
 
 .table {
 	border:2px solid black;
-	border-collapse: collapse;
+	position: absolute;
+	right: 30px;
+	top: 155px;
+	width: 875px;
+	margin: 0 auto;
 }
 
 .col {
-	width: 400px;
-	height: 400px;
-	margin: 0px 10px 10px 0px;
-	display: inline-block;
-	border-collapse: collapse;
-	line-height: 100%;
+    width: 47%;
+    margin: 0px 10px 0px 0px;
+    padding-left: 5px;
+    display: inline-block;
+    line-height: 100%;
+    vertical-align: top;
 }
 
 #divider{
-	border-right: 2px black solid;
-	border-collapse: collapse;
+	border-right: 2px solid black;
 }
 
-col, p{
-	width: 400px;
+.col p{
+	text-align: center;
+	/*border-bottom: 2px solid black;*/
 }
-/*.table-table-striped{
-	border: 2px solid black;
-	border-collapse: collapse;
-}*/
 
-/* td{
-	border-right: 2px solid black;
-	border-collapse: collapse;
-}*/
+.col hr {
+	width: 100%;
+}
 
-/* th{
-	border-right: 2px solid black;
-	border-collapse: collapse;
-}*/
+#divider_2{
+	/*border-left: 2px solid black;*/
+	border-collapse:collapse;
+	vertical-align: top;
+}
 
-.help {
-	width: 670px;
-	background-color: rgba(0,0,0,0.8);
-	margin-top: 530px;
-	border-radius: 15px;
-	margin-left: -20px;
-	position: absolute;
-	z-index: 20px;
+#divider_2 p{
+	padding-top: 10px;
 	padding-bottom: 10px;
-	border-bottom: 5px solid rgb(204, 0, 0);
-	border-top: 5px solid rgb(204, 0, 0);
+	padding-left: 10px;
+	padding-right: 10px;
 }
